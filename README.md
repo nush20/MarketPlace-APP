@@ -42,21 +42,25 @@ This app allows users to explore sneakers from multiple verified sellers, compar
 
 ---
 
-## 🏗 Architecture
+## 🏗️ Architecture
 
-The project follows the **MVVM (Model–View–ViewModel)** architecture for clean separation of UI and business logic.
+This project follows the **MVVM (Model-View-ViewModel)** architecture pattern:
 
-## 🛠 Tech Stack
-
-| Technology | Used |
-|----------|-----|
-| Language | Swift |
-| Framework | SwiftUI |
-| Architecture | MVVM |
-| iOS Version | iOS 15+ |
-| State Management | @State, @StateObject |
-| Data | Mock data (backend-ready structure) |
-
+```
+📁 Project Structure
+├── 📁 Models/          # Data models (Sneaker, Seller, Order, etc.)
+├── 📁 Views/           # SwiftUI views organized by feature
+│   ├── App/            # App entry point & splash screen
+│   ├── Home/           # Home screen & components
+│   ├── Search/         # Search & filter screens
+│   ├── Product/        # Product detail screens
+│   ├── Checkout/       # Checkout & seller comparison
+│   ├── Orders/         # Order management
+│   ├── Profile/        # Profile & settings
+│   └── Navigation/     # Navigation components
+├── 📁 ViewModels/      # Business logic & state management
+├── 📁 Services/        # Data services & API layer
+└── 📁 Utilities/       # Extensions & helper functions
 ---
 
 ## 📱 App Flow
