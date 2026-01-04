@@ -77,7 +77,7 @@ This project follows the **MVVM (Model-View-ViewModel)** architecture pattern:
 → Order Tracking  
 → Profile  
 
-## 🚀 Running the App
+### 🚀 Running the App
 
 ```bash
 git clone https://github.com/nush20/MarketPlace-APP.git
