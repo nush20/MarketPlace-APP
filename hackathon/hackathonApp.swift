@@ -7,11 +7,5 @@
 
 import SwiftUI
 
-@main
-struct hackathonApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+// Main app entry point is now in Views/App/SneakerAuthApp.swift
+// This file is kept for project structure compatibility
