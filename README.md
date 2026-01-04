@@ -46,7 +46,7 @@ This app allows users to explore sneakers from multiple verified sellers, compar
 
 This project follows the **MVVM (Model-View-ViewModel)** architecture pattern:
 
-```
+
 📁 Project Structure
 ├── 📁 Models/          # Data models (Sneaker, Seller, Order, etc.)
 ├── 📁 Views/           # SwiftUI views organized by feature
@@ -61,10 +61,12 @@ This project follows the **MVVM (Model-View-ViewModel)** architecture pattern:
 ├── 📁 ViewModels/      # Business logic & state management
 ├── 📁 Services/        # Data services & API layer
 └── 📁 Utilities/       # Extensions & helper functions
+
 ---
 
 ## 📱 App Flow
 
+Splash  
 → Home / Discover  
 → Search & Filters  
 → Product Listing  
@@ -77,9 +79,11 @@ This project follows the **MVVM (Model-View-ViewModel)** architecture pattern:
 → Order Tracking  
 → Profile  
 
-### 🚀 Running the App
+---
 
-```bash
-git clone https://github.com/nush20/MarketPlace-APP.git
-open MarketPlace\ App.xcodeproj
+## 🚀 Running the App
+
+git clone https://github.com/nush20/MarketPlace-APP.git  
+open MarketPlace\ App.xcodeproj  
+
 Select a simulator or physical device → Press Cmd + R
